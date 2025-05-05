@@ -5,33 +5,9 @@ heroImage: /33.png
 actions:
   - text: 文档
     link: /doc/
-  - text: 模板
-    link: /tmpl/
   - text: 题解
     link: /sol/
 highlights:
-  - header: 33DAI 维护的
-    features:
-      - title: 33OJ
-        icon: fa-solid fa-code
-        details: 33dai 维护的在线评测系统
-        link: https://oj.33dai.cn
-      - title: open33oj
-        icon: fa-brands fa-github
-        details: OJ 插件、以及本站源码
-        link: https://github.com/orgs/open33oj/repositories
-      - title: 三三文档
-        icon: fa-solid fa-book
-        details: 题解、知识点文档、PPT
-        link: https://33dai.wiki
-      - title: C++ 参考手册
-        icon: fa-solid fa-c
-        details: cppreference 中文镜像
-        link: https://cpp.33dai.wiki
-      - title: Python 文档
-        icon: fa-solid fa-p
-        details: Python 3.8.14 文档中文镜像
-        link: https://py.33dai.wiki
   - header: 常用工具
     features:
       - title: NOI 官网
@@ -45,41 +21,45 @@ highlights:
         icon: fa-solid fa-o
         details: OI 百科
         link: http://oiwiki.org/
+      - title: PTOIerDb
+        icon: fa-solid fa-code
+        details: 莆田市选手数据库
+        link: https://oier.ptezoj.com/
+      - title: 世纪海航课程
+        icon: fa-solid fa-code
+        link: https://online.tdogcode.com/
   - header: 常用 OJ
     features:
-      - title: 洛谷
-        icon: fa-solid fa-keyboard
-        link: https://luogu.com.cn
-      - title: AtCoder
-        icon: fa-solid fa-keyboard
-        link: https://atcoder.jp
-      - title: 核桃周赛
-        icon: fa-solid fa-keyboard
-        link: https://htoj.hetao101.com/cpp/
-      - title: 代码源挑战赛
-        icon: fa-solid fa-keyboard
-        link: https://bs.daimayuan.top/
-      - title: 上海月赛
-        icon: fa-solid fa-keyboard
-        link: https://iai.sh.cn 
-      - title: 陕西月赛
-        icon: fa-solid fa-keyboard
-        link: https://oi.sn.cn 
-      - title: 挖土机 OJ
-        icon: fa-solid fa-keyboard
-        link: https://oj.since2018.top
       - title: HydroOJ
-        icon: fa-solid fa-keyboard
-        link: https://hydro.ac
-      - title: CodeForces
-        icon: fa-solid fa-keyboard
-        link: https://codeforces.com
+        icon: fa-solid fa-code
+        link: https://hydro.ac/
       - title: LibreOJ
-        icon: fa-solid fa-keyboard
-        link: https://loj.ac
-      - title: UOJ
-        icon: fa-solid fa-keyboard
-        link: https://uoj.ac
+        icon: fa-solid fa-code
+        link: https://loj.ac/
+      - title: 洛谷
+        icon: fa-solid fa-code
+        link: https://www.luogu.com.cn/
+      - title: AtCoder
+        icon: fa-solid fa-code
+        link: https://atcoder.jp/
+      - title: CodeForces
+        icon: fa-solid fa-code
+        link: https://codeforces.com/
+      - title: 莆田二中 OJ
+        icon: fa-solid fa-code
+        link: https://ptezoj.com/
+      - title: 世纪海航 OJ
+        icon: fa-solid fa-code
+        link: https://alg.tdogcode.com/#/login
+      - title: 微笙 OJ
+        icon: fa-solid fa-code
+        link: http://10.10.29.233/
+      - title: 远岫 OJ
+        icon: fa-solid fa-code
+        link: http://10.10.29.123/
+      - title: 课外任务
+        icon: fa-solid fa-code
+        link: http://10.10.29.100/
   - header: 其他工具
     features:
       - title: IOI 官网
@@ -104,5 +84,3 @@ highlights:
         icon: fa-solid fa-gear
         link: https://www.geogebra.org/graphing
 ---
-
-之前的 [33 Wiki](https://wiki.33dai.cn) 的内容都会逐渐迁移到这里。
