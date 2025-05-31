@@ -276,7 +276,7 @@ void generatePlayerMarkdown(const Player& player, const map<string, Contest>& co
 
                 string contestLink = "[" + realContestName + "](/games/" + contest.second[0] + "/" + realContestName + ".md)";
                 if (isSpecial) {
-                    contestLink += "[*](/share/特殊比赛.html)";
+                    contestLink += "[ *](/share/特殊比赛.html)";
                 }
 
                 content += "| " + contestLink + " | " + contest.second[0] + " | " + contest.second[1] + " | " + contest.second[2] + " | " + contest.second[3] + " | " + contest.second[4] + " | " + contest.second[5] + " | " + teachersStr + " |\n";
@@ -309,7 +309,7 @@ void generatePlayerMarkdown(const Player& player, const map<string, Contest>& co
 
                 string contestLink = "[" + realContestName + "](/games/" + contest.second[0] + "/" + realContestName + ".md)";
                 if (isSpecial) {
-                    contestLink += "[*](/share/特殊比赛.html)";
+                    contestLink += "[ *](/share/特殊比赛.html)";
                 }
 
                 content += "| " + contestLink + " | " + contest.second[0] + " | " + contest.second[1] + " | " + contest.second[2] + " | " + contest.second[3] + " | " + contest.second[4] + " | " + contest.second[5] + " | " + teachersStr + " |\n";
@@ -498,7 +498,7 @@ void generateTeacherMarkdown(const Teacher& teacher) {
 
             string contestLink = "[" + realContestName + "](/games/" + contest.second[0] + "/" + realContestName + ".md)";
             if (isSpecial) {
-                contestLink += "[*](/share/特殊比赛.html)";
+                contestLink += "[ *](/share/特殊比赛.html)";
             }
 
             content += "| [" + contest.second[7] + "](/players/" + contest.second[6] + "/" + contest.second[7] + ".md) | " + contestLink + " | " + contest.second[0] + " | " + contest.second[1] + " | " + contest.second[2] + " | " + contest.second[3] + " | " + contest.second[5] + " | [" + contest.second[6] + "](/players/" + contest.second[6] + "/) |\n";
@@ -519,7 +519,7 @@ void generateTeacherMarkdown(const Teacher& teacher) {
 
             string contestLink = "[" + realContestName + "](/games/" + contest.second[0] + "/" + realContestName + ".md)";
             if (isSpecial) {
-                contestLink += "[*](/share/特殊比赛.html)";
+                contestLink += "[ *](/share/特殊比赛.html)";
             }
 
             content += "| [" + contest.second[7] + "](/players/" + contest.second[6] + "/" + contest.second[7] + ".md) | " + contestLink + " | " + contest.second[0] + " | " + contest.second[1] + " | " + contest.second[2] + " | " + contest.second[3] + " | " + contest.second[5] + " | [" + contest.second[6] + "](/players/" + contest.second[6] + "/) |\n";
