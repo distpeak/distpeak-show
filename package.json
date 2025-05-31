@@ -1,26 +1,18 @@
 {
-  "name": "Distpeak-Show",
-  "description": "Distpeak's show",
+  "name": "distpeak",
+  "description": "distpeak",
   "version": "1.0.0",
   "license": "AGPL3.0",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress-webpack build src",
-    "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
-    "docs:dev": "vuepress-webpack dev src",
-    "docs:update-package": "pnpm dlx vp-update"
+    "show:build": "vuepress-webpack build src",
+    "show:clean-dev": "vuepress-webpack dev src --clean-cache",
+    "show:dev": "vuepress-webpack dev src --port 8081",
+    "show:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-webpack": "2.0.0-rc.18",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.60",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.62",
-    "mathjax-full": "^3.2.2",
-    "sass-embedded": "^1.79.5",
-    "sass-loader": "^16.0.2",
-    "vue": "^3.5.12",
-    "vuepress": "2.0.0-rc.18",
-    "vuepress-plugin-search-pro": "2.0.0-rc.59",
-    "vuepress-theme-hope": "2.0.0-rc.59"
+    "vuepress": "2.0.0-rc.18"
   },
   "packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
 }
