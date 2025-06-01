@@ -6,7 +6,7 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "src/.vuepress/dist",
-        "buildCommand": "pnpm install --no-frozen-lockfile && pnpm run show:build",
+        "buildCommand": "pnpm run show:build",
         "outputDirectory": "src/.vuepress/dist"
       }
     }
