@@ -7,6 +7,7 @@
 - **内容概括**：远岫排行榜是一个展示竞赛选手的平台，为用户提供准确 ~~但不及时~~ 的排行榜信息。
 - **协议**：AGPL-3.0
 - **最后更新**：2025.6.1
+- **关于AI**：该readme文档由AI生成后人工检验，如有错误请联系作者。
 
 ## 目录
 
@@ -31,11 +32,11 @@
 
 ## 反馈问题和 Bug
 
-如果你在使用过程中遇到问题或发现 Bug，可以前往 [项目的 Issues 页面](https://github.com/distpeak/distpeak-show/issues) 提交反馈，我们会尽快处理。
+如果你在使用过程中遇到问题或发现 Bug，可以前往 [项目的 Issues 页面](https://github.com/distpeak/distpeak-show/issues) 提交反馈，我们会 ~~尽快~~ 处理。
 
 ## Wiki 界面
 
-我们为项目维护了一个 Wiki 页面，里面包含了详细的文档和使用指南。你可以访问 [项目的 Wiki 页面](https://github.com/distpeak/distpeak-show/wiki) 查看。
+我们为项目维护了一个 Wiki 页面，里面包含了 ~~详细的文档和使用指南~~ 。你可以访问 [项目的 Wiki 页面](https://github.com/distpeak/distpeak-show/wiki) 查看。
 
 ## 鸣谢
 
@@ -50,11 +51,12 @@
 <details>
 <summary> 版本信息 </summary>
 
+
 ### 版本号：1.0.0
 
 #### 时间：2025.6.1
 
-#### 主要贡献者：Lirzh
+#### 贡献者：Lirzh
 
 #### 语言：VUE
 
